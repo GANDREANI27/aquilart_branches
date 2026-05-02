@@ -1,7 +1,7 @@
 // ─────────────────────────────────────────────
 // CONFIG
 // ─────────────────────────────────────────────
-const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbylBkeiIi5ld_fgJJz9SoByrunXFN_6hF35SPsHpPi29176LvJq7vV4IEWy4ZJOwhv6/exec';
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwnAewVH795zkiZgpu0tC6Tj0BXx96m2pO0grX5vA64vLx7OxYkPke16XAEzuPCadSw/exec';
 
 // ─────────────────────────────────────────────
 // DONNÉES COMPLÈTES DES BRANCHES
