@@ -26,7 +26,7 @@
     <div class="section-label">Organigramme BDA</div>
     <div class="orga-card" id="orga-card" onclick="openOrga()">
       <div class="orga-preview">
-        <iframe src="organigramme.pdf#toolbar=0&navpanes=0&scrollbar=0" class="orga-iframe" tabindex="-1"></iframe>
+        <img src="organigramme_preview.png" alt="Organigramme BDA" style="width:100%;height:100%;object-fit:cover;object-position:top;display:block;">
         <div class="orga-overlay">
           <div class="orga-overlay-inner">
             <div class="orga-zoom-icon">
@@ -39,7 +39,7 @@
       <div class="orga-footer">
         <div class="orga-footer-left">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-          <span>Organigramme BDA IESEG — 2024/2025</span>
+          <span>Organigramme BDA IESEG — 2026/2027</span>
         </div>
         <div class="orga-footer-right">
           Cliquer pour agrandir
@@ -56,9 +56,7 @@
     <button class="orga-lightbox-close" onclick="closeOrga()">
       <svg viewBox="0 0 14 14"><line x1="1" y1="1" x2="13" y2="13"/><line x1="13" y1="1" x2="1" y2="13"/></svg>
     </button>
-    <object data="Organigramme.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" class="orga-iframe" tabindex="-1">
-      <img src="organigramme_preview.png" alt="Organigramme BDA" style="width:100%;height:100%;object-fit:cover;object-position:top;display:block;">
-    </object>
+    <iframe src="Organigramme.pdf#toolbar=0&navpanes=0" class="orga-lightbox-iframe"></iframe>
   </div>
 </div>
 
